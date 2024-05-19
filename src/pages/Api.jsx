@@ -22,6 +22,10 @@ const ApiSearchBar = () => {
         }
     }, [img]);
 
+    const handleInputChange = (e) => {
+        setImg(e.target.value);
+      };
+
     const ApiSearchBar = () => {
         return (
             <div className="api-search-container">

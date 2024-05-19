@@ -6,6 +6,16 @@ const ApiSearchBar = () => {
     const [img, setImg] = useState("");
     const [res, setRes] = useState([]);
 
+const fetchRequest = async () => {
+        const data = await fetch(
+          `https://api.unsplash.com/search/photos?page=1&query=${img}&client_id=${Access_Key}`
+        );
+        const dataJ = await data.json();
+        const result = dataJ.results;
+        console.log(result);
+        setRes(result);
+      };
+
 const ApiSearchBar = () => {
   return (
     <div className="api-search-container">

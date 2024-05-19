@@ -1,4 +1,3 @@
-Sure, here's the formatted version of the README file with the additional section about Create React App:
 Image Search App
 This project is a React-based web application that allows users to search for images using the Unsplash API. The app features a visually appealing homepage with a parallax effect and a search functionality that displays the retrieved images.
 Technologies Used
@@ -10,19 +9,27 @@ Unsplash API: A third-party API for accessing a vast collection of high-quality 
 CSS: Used for styling the application.
 React Icons: A library for adding icons to the application.
 
-Approach
+Approach:
+
 The application follows a component-based architecture, where each component represents a specific part of the user interface. The main components are:
 
 App: The root component that sets up the routing and renders the Navbar, Homepage, ApiSearchBar, and Footer components.
+
 Navbar: A navigation bar component with links to the Homepage and ApiSearchBar components.
+
 Homepage: A component that displays a visually appealing parallax effect using the react-scroll-parallax library.
+
 ApiSearchBar: A component that allows users to search for images using the Unsplash API. It includes an input field, a search button, and a section to display the retrieved images.
+
 Footer: A footer component with additional information and social media links.
 
 The ApiSearchBar component handles the search functionality by making requests to the Unsplash API using the fetch API and updating the component state with the retrieved images.
+
 Live Site
-You can view the live site at https://chaisrobinson.github.io/SBA320/.
-Usage Instructions
+You can view the live site at https://chaisrobinson.github.io/
+
+
+Usage Instructions:
 
 Clone the repository to your local machine.
 Navigate to the project directory and install the dependencies by running npm install.
@@ -60,20 +67,29 @@ Note: this is a one-way operation. Once you eject, you can't go back!
 If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
 Learn More
+
 You can learn more in the Create React App documentation.
+
 To learn React, check out the React documentation.
+
 Code Splitting
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
 Analyzing the Bundle Size
 This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
 Making a Progressive Web App
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
 Advanced Configuration
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
 Deployment
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 npm run build fails to minify
+
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-Live : https://chaisrobinson.github.io/
+

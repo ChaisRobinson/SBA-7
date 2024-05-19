@@ -1,4 +1,3 @@
-import React from "react";
 import React, { useState, useEffect } from "react";
 
 const ApiSearchBar = () => {
@@ -24,27 +23,28 @@ const ApiSearchBar = () => {
 
     const handleInputChange = (e) => {
         setImg(e.target.value);
-      };
-
-    const ApiSearchBar = () => {
-        return (
-            <div className="api-search-container">
-                <h1 className="title">Image Search</h1>
-                <p className="description">
-                    Use the search bar below to find any image you want.
-                </p>
-                <div className="search-bar-wrapper">
-                    <input
-                        className="search-input"
-                        type="text"
-                        placeholder="Search Anything..."
-                    />
-                    <button type="submit" className="search-button">
-                        Search
-                    </button>
-                </div>
-            </div>
-        );
     };
 
-    export default ApiSearchBar;
+    return (
+        <div className="api-search-container">
+            <h1 className="title">Image Search</h1>
+            <p className="description">
+                Use the search bar below to find any image you want.
+            </p>
+            <div className="search-bar-wrapper">
+                <input
+                    className="search-input"
+                    type="text"
+                    placeholder="Search Anything..."
+                    value={img}
+                    onChange={handleInputChange}
+                />
+                <button type="submit" className="search-button">
+                    Search
+                </button>
+            </div>
+        </div>
+    );
+};
+
+export default ApiSearchBar;

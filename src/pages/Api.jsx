@@ -1,9 +1,24 @@
-import React from 'react'
+import React from "react";
 
-const Api = () => {
+const ApiSearchBar = () => {
   return (
-    <div>Api</div>
-  )
-}
+    <div className="api-search-container">
+      <h1 className="title">Image Search</h1>
+      <p className="description">
+        Use the search bar below to find any image you want.
+      </p>
+      <div className="search-bar-wrapper">
+        <input
+          className="search-input"
+          type="text"
+          placeholder="Search Anything..."
+        />
+        <button type="submit" className="search-button">
+          Search
+        </button>
+      </div>
+    </div>
+  );
+};
 
-export default Api
+export default ApiSearchBar;

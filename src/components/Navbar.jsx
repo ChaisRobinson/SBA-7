@@ -31,7 +31,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/api">
-                API
+                Image Serach API
               </Link>
             </li>
           </ul>

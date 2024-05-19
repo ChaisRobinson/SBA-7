@@ -27,7 +27,7 @@ Footer: A footer component with additional information and social media links.
 The ApiSearchBar component handles the search functionality by making requests to the Unsplash API using the fetch API and updating the component state with the retrieved images.
 
 Live Site
-You can view the live site at https://chaisrobinson.github.io/
+You can view the live site at https://chaisrobinson.github.io/SBA-7/
 
 
 Usage Instructions:

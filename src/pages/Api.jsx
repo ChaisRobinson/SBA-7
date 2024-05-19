@@ -6,35 +6,41 @@ const ApiSearchBar = () => {
     const [img, setImg] = useState("");
     const [res, setRes] = useState([]);
 
-const fetchRequest = async () => {
+    const fetchRequest = async () => {
         const data = await fetch(
-          `https://api.unsplash.com/search/photos?page=1&query=${img}&client_id=${Access_Key}`
+            `https://api.unsplash.com/search/photos?page=1&query=${img}&client_id=${Access_Key}`
         );
         const dataJ = await data.json();
         const result = dataJ.results;
         console.log(result);
         setRes(result);
-      };
+    };
 
-const ApiSearchBar = () => {
-  return (
-    <div className="api-search-container">
-      <h1 className="title">Image Search</h1>
-      <p className="description">
-        Use the search bar below to find any image you want.
-      </p>
-      <div className="search-bar-wrapper">
-        <input
-          className="search-input"
-          type="text"
-          placeholder="Search Anything..."
-        />
-        <button type="submit" className="search-button">
-          Search
-        </button>
-      </div>
-    </div>
-  );
-};
+    useEffect(() => {
+        if (img) {
+            fetchRequest();
+        }
+    }, [img]);
 
-export default ApiSearchBar;
+    const ApiSearchBar = () => {
+        return (
+            <div className="api-search-container">
+                <h1 className="title">Image Search</h1>
+                <p className="description">
+                    Use the search bar below to find any image you want.
+                </p>
+                <div className="search-bar-wrapper">
+                    <input
+                        className="search-input"
+                        type="text"
+                        placeholder="Search Anything..."
+                    />
+                    <button type="submit" className="search-button">
+                        Search
+                    </button>
+                </div>
+            </div>
+        );
+    };
+
+    export default ApiSearchBar;

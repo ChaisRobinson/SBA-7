@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sba-7/static/css/main.463ebda5.css",
+    "main.js": "/sba-7/static/js/main.3733fa76.js",
+    "index.html": "/sba-7/index.html",
+    "main.463ebda5.css.map": "/sba-7/static/css/main.463ebda5.css.map",
+    "main.3733fa76.js.map": "/sba-7/static/js/main.3733fa76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.463ebda5.css",
+    "static/js/main.3733fa76.js"
+  ]
+}

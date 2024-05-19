@@ -1,4 +1,5 @@
 Image Search App
+
 This project is a React-based web application that allows users to search for images using the Unsplash API. The app features a visually appealing homepage with a parallax effect and a search functionality that displays the retrieved images.
 Technologies Used
 

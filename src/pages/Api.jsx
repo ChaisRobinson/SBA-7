@@ -1,4 +1,10 @@
 import React from "react";
+import React, { useState, useEffect } from "react";
+
+const ApiSearchBar = () => {
+    const Access_Key = "vsbQ35Vlp5xe4sFsjOtc6mBvt8CE4oZ2aGnUML0o_9I";
+    const [img, setImg] = useState("");
+    const [res, setRes] = useState([]);
 
 const ApiSearchBar = () => {
   return (

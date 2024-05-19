@@ -1,10 +1,11 @@
 .App {
   text-align: center;
+  
 }
 
 /* Navbar.css */
 .navbar {
-  background-color: #25c3db;
+  background-image: linear-gradient(to right top, #c5d8de, #b6ced9, #a8c4d6, #9cbad2, #92afce, #8aa9d1, #83a3d3, #7f9cd5, #7799df, #6e96e9, #6693f2, #5f8ffb);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -70,9 +71,31 @@
   }
 }
 
+/*Homepage.css*/
+.container-body {
+  height: 1400px;
+  
+ }
+ 
+ .bg-container {
+  position: relative;
+  width: 70% !important;
+  height: 600px;
+  margin: auto;
+  margin-top: 55%;
+ }
+ .bg-container h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  font-size: 70px;
+ }
+
 /* Footer.css */
 .footer {
-  background-color: #25c3db;
+  background-image: linear-gradient(to right top, #c5d8de, #b6ced9, #a8c4d6, #9cbad2, #92afce, #8aa9d1, #83a3d3, #7f9cd5, #7799df, #6e96e9, #6693f2, #5f8ffb);
   color: #fff;
   padding: 40px 0;
 }

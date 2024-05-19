@@ -1,13 +1,17 @@
 import React from "react";
 import { ParallaxBanner } from "react-scroll-parallax";
+import mountain from "./mountain.png";
+import night from "./night.jpeg";
+
 const Homepage = () => {
   const background = {
-    image: "/images/night.jpeg",
+    image: night,
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, "easeOutCubic"],
     shouldAlwaysCompleteAnimation: true,
   };
+
   const headline = {
     translateY: [0, 30],
     scale: [1, 1.05, "easeOutCubic"],
@@ -19,12 +23,14 @@ const Homepage = () => {
       </div>
     ),
   };
+
   const foreground = {
-    image: "/images/mountain.png",
+    image: mountain,
     translateY: [0, 15],
     scale: [1, 1.1, "easeOutCubic"],
     shouldAlwaysCompleteAnimation: true,
   };
+
   const gradientOverlay = {
     opacity: [0, 0.9],
     shouldAlwaysCompleteAnimation: true,
@@ -33,6 +39,7 @@ const Homepage = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-blue-900" />
     ),
   };
+
   return (
     <div className="container-body">
       <ParallaxBanner
@@ -42,4 +49,5 @@ const Homepage = () => {
     </div>
   );
 };
+
 export default Homepage;

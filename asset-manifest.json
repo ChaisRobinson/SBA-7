@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SBA-7/static/css/main.463ebda5.css",
-    "main.js": "/SBA-7/static/js/main.462e933c.js",
+    "main.js": "/SBA-7/static/js/main.57d718d4.js",
     "static/media/mountain.png": "/SBA-7/static/media/mountain.122f5ec6b1d99b047934.png",
     "static/media/night.jpeg": "/SBA-7/static/media/night.56944a59a68512e8981c.jpeg",
     "index.html": "/SBA-7/index.html",
     "main.463ebda5.css.map": "/SBA-7/static/css/main.463ebda5.css.map",
-    "main.462e933c.js.map": "/SBA-7/static/js/main.462e933c.js.map"
+    "main.57d718d4.js.map": "/SBA-7/static/js/main.57d718d4.js.map"
   },
   "entrypoints": [
     "static/css/main.463ebda5.css",
-    "static/js/main.462e933c.js"
+    "static/js/main.57d718d4.js"
   ]
 }
